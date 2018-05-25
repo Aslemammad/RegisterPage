@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Khula;
+    font-weight: 200;
+    background-color: #eee;
+}
+
+.margin-top-40 {
+    padding-bottom: 65px;
+    background-color: white;
+}
+
+.margin-top-30 {
+    margin-top: 40px;
+}
+
+.heading {
+    font-size: 35px;
+    opacity: 0.7;
+    margin-top: 80px;
+}
+
+.input-style {
+    margin-bottom: 20px;
+    border-radius: 3px;
+    height: 45px;
+}
+
+/* .inner {
+  width: 55%;
+  margin: 0 auto;
+} */
+
+.forget {
+    color: black;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.forget:hover {
+    color: #c0392b;
+}
+
+.btn-primary {
+    height: 45px;
+    border: #c0392b solid 1px;
+    background: #fff;
+    color: #c0392b;
+}
+
+.btn-primary:active {
+    border: #c0392b solid 1px;
+    background: #fff;
+    color: #c0392b;
+}
+
+.btn-primary:hover {
+    color: white;
+    background: #c0392b;
+    border-color: #c0392b
+}
+
+/* Sign Up Style */
+
+.bg-pink {
+    background: #c0392b;
+}
+
+.outline {
+    padding-right: 30px;
+    padding-left: 30px;
+    background: none;
+    color: #fff;
+    border: #fff solid 1px;
+    transition: all 0.3s linear;
+}
+
+.outline:hover {
+    background: #fff;
+    color: #c0392b;
+    border: #fff solid 1px;
+}
+
+.heading-right {
+    font-size: 35px;
+    margin-top: 115px;
+}
+
+.lead {
+    font-size: 15px;
+    margin-bottom: 12%;
+}
+
+/* Navigation Bar Style */
+
+.nav ul {
+    position: absolute;
+    margin-top: 20px;
+}
+
+.nav ul li {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.nav a {
+    font-size: 30px;
+    color: #3498db;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.nav a:hover {
+    color: #9b59b6;
+}
+
+.navigation {
+    background-color: #9b59b6;
+    padding: 10px 0px 0px 15px;
+}
+
+.navigation a {
+    color: white;
+}
+
+.link-brand {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.link {
+    float: right;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-right: 10px;
+    transition: all 0.2s linear;
+}
+
+.link:hover {
+    background: #8e44ad;
+    text-decoration: none;
+}
+
+.form-control:focus {
+    border-color: #fff;
+}
+
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+
+.animation {
+    animation: myanim 2s;
+    transition: all 1s linear;
+}
+
+@keyframes myanim {
+    from {
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.animation-1 {
+    animation: myanim-1 2s;
+    transition: all 1s linear;
+}
+
+@keyframes myanim-1 {
+    from {
+        transform: translateY(150px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
