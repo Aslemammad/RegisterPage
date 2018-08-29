@@ -1,2 +1,2 @@
 # This is Register Page
-register page for PascalCase Project
+## #register page for PascalCase Project
